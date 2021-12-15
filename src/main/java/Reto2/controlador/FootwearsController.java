@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Lenovo
  */
 @RestController
-@RequestMapping("/api/footwears")
+@RequestMapping("/api/accessory")
 @CrossOrigin("*")
 public class FootwearsController {
   @Autowired

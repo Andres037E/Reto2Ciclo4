@@ -50,13 +50,24 @@ public class FootwearsService {
                 if (accesory.getCategory() != null) {
                     accessoryDb.get().setCategory(accesory.getCategory());
                 }
+                 if (accesory.getMaterial() != null) {
+                    accessoryDb.get().setMaterial(accesory.getMaterial());
                 
+                }
+                if (accesory.getGender() != null) {
+                    accessoryDb.get().setGender(accesory.getGender());
+                }
+                if (accesory.getSize() != null) {
+                    accessoryDb.get().setSize(accesory.getSize());
+                }
                 if (accesory.getDescription() != null) {
                     accessoryDb.get().setDescription(accesory.getDescription());
                 }
                 if (accesory.getPrice() != 0.0) {
                     accessoryDb.get().setPrice(accesory.getPrice());
                 }
+                
+                
                 if (accesory.getQuantity() != 0) {
                     accessoryDb.get().setQuantity(accesory.getQuantity());
                 }

@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
  *
  * @author USUARIO
  */
-@Document(collection = "footwears")
+@Document(collection = "accessory")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -23,6 +23,7 @@ public class Footwears {
     private String reference;
     private String brand;
     private String category;
+    private String material;
     private String gender;
     private String size;
     private String description;
